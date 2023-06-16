@@ -18,7 +18,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-df =pd.read_csv('india.csv')
+df =pd.read_csv('India.csv')
 listOfStates=sorted(list(df['State'].unique()))
 listOfStates.insert(0,'Overall India')
 
